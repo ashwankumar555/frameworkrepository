@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-06T21:33:42 IST" name="Default suite" finished-at="2025-08-06T21:33:43 IST" duration-ms="62">
+    <groups>
+    </groups>
+    <test started-at="2025-08-06T21:33:42 IST" name="Default test" finished-at="2025-08-06T21:33:43 IST" duration-ms="62">
+      <class name="NewLearnings.ChildClass">
+        <test-method is-config="true" signature="testBeforeRun()[pri:0, instance:NewLearnings.ChildClass@247bddad]" started-at="2025-08-06T21:33:42 IST" name="testBeforeRun" finished-at="2025-08-06T21:33:43 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeRun -->
+        <test-method signature="testRun()[pri:0, instance:NewLearnings.ChildClass@247bddad]" started-at="2025-08-06T21:33:43 IST" name="testRun" finished-at="2025-08-06T21:33:43 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRun -->
+      </class> <!-- NewLearnings.ChildClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

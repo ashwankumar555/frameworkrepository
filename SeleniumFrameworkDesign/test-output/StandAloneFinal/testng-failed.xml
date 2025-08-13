@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [StandAloneFinal]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="SubmitTest(failed)">
+    <groups>
+      <run>
+        <include name="Purchase"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="akhiraacademy.StandAloneFinal">
+        <methods>
+          <include name="SubmitOrderTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- akhiraacademy.StandAloneFinal -->
+    </classes>
+  </test> <!-- SubmitTest(failed) -->
+</suite> <!-- Failed suite [StandAloneFinal] -->
